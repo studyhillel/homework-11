@@ -1,0 +1,31 @@
+.section-herro {
+    background-color: var(--background-main);
+    padding-top: 142px;
+    padding-bottom: 142px;
+}
+
+.section-herro__wrapper {
+    max-width: 540px;
+}
+
+.section-herro__title {
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.section-herro__desc {
+    color: var(--color-main);
+    margin-bottom: 65px;
+}
+
+.section-herro__link {
+    background-color: var(--accent-color);
+    max-width: 225px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-white);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

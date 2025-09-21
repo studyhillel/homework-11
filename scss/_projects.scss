@@ -1,0 +1,31 @@
+.projects {
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.projects__item {
+    display: flex;
+    align-items: center;
+}
+
+.projects__desc {
+    margin-left: 20px;
+}
+
+.projects__number {
+    font-size: 21px;
+    line-height: 1;
+    color: var(--color-white);
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.projects__subtext {
+    color: var(--color-white);
+    margin: 0;
+    padding: 0;
+}
