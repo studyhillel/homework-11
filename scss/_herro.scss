@@ -1,5 +1,5 @@
 .section-herro {
-    background-color: var(--background-main);
+    background-color: $background-main;
     padding-top: 142px;
     padding-bottom: 142px;
 }
@@ -14,18 +14,40 @@
 }
 
 .section-herro__desc {
-    color: var(--color-main);
+    color: $color-main;
     margin-bottom: 65px;
 }
 
 .section-herro__link {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     max-width: 225px;
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--color-white);
+    color: $color-white;
     padding: 20px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width: 370px) and (max-width: 800px) {
+    .section-herro {
+    
+            padding-top: 62px;
+            padding-bottom: 100px;
+        }
+    
+        .section-herro__title {
+            font-size: 24px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    
+        .section-herro__desc {
+            color: $color-main;
+            margin-bottom: 65px;
+            text-align: justify;
+        }
+
+
 }

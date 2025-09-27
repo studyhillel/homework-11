@@ -1,7 +1,18 @@
 .header {
     padding-top: 80px;
-    background-color: var(--background-main);
+    background-color: $background-main;
     padding-bottom: 20px;
     position: sticky;
     top: 0;
+}
+
+@media screen and (min-width: 370px) and (max-width: 800px) {
+    .header {
+            /* max-width: 350px; */
+            padding: 5px;
+            background-color: $background-main;
+            padding-bottom: 20px;
+    
+        }
+
 }

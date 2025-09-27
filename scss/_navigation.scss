@@ -15,12 +15,24 @@
     &__link {
         text-decoration: none;
         text-transform: uppercase;
-        color: var(--color-black);
+        color: $color-black;
         letter-spacing: 0.1em;
         }
 }
 
 .navigation__link--active {
-    color: var(--accent-color);
+    color: $accent-color;
     font-weight: 500;
+}
+
+
+@media screen and (min-width: 370px) and (max-width: 800px) {
+    .navigation__list {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            row-gap: 10px;
+        }
+
 }
